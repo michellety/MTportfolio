@@ -2,7 +2,10 @@ body {
     background-color: rgb(145, 226, 226);
     font-family: 'Laila', serif;
   }
-  
+
+  #title {
+      padding: 1.5em;
+  }
   nav ul a,
   nav .brand-logo {
     color: blanchedalmond;
@@ -29,11 +32,7 @@ body {
       color: blanchedalmond;
   }
   
-  #form {
-    border: solid grey 2px;
-    background-color: blanchedalmond;
-  }
-  
+
   @media only screen and (max-width : 992px) {
     .parallax-container .section {
       position: absolute;
