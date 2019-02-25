@@ -1,9 +1,11 @@
 body {
     background-color: rgb(145, 226, 226);
+    font-family: 'Laila', serif;
   }
+  
   nav ul a,
   nav .brand-logo {
-    color: #444;
+    color: blanchedalmond;
   }
   
   p {
@@ -11,7 +13,7 @@ body {
   }
   
   .sidenav-trigger {
-    color:#444;
+    color: blanchedalmond;
   }
   
   .parallax-container {
@@ -23,7 +25,9 @@ body {
     .parallax-container .section {
       width: 100%;
     }
-  
+  div {
+      color: blanchedalmond;
+  }
   
   #form {
     border: solid grey 2px;
@@ -70,9 +74,21 @@ body {
   }
   
   #headshot {
-    display: block;
+    display: grid;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     height: auto;
+    margin-top: 20px;
+    
   }
+
+  #aboutText {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 10rem;
+      
+  }
+
+  

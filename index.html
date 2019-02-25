@@ -1,210 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>MT Portfolio</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-- Custom CSS stylesheet-->
-  <link href="assets/style/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MT Portfolio</title>
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Laila:300" rel="stylesheet">
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Custom CSS stylesheet-->
+    <link href="assets/style/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
 
-<!-- Navigation bar begins -->            
-  <nav  role="navigation">
-    <div class="nav-wrapper container">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#index-banner">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <!-- Navigation bar begins -->
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#index-banner">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#index-banner">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
-    </div>
-  </nav>
-<!-- Navigation bar ends -->
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#index-banner">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+        </div>
+    </nav>
+    <!-- Navigation bar ends -->
 
-<!-- About begins -->
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-      <div class="row center">
-        <div class="column">
-        <h1 class="header center">Michelle Tyson</h1>
-      </div>
-      </div>
-        <div class="row center">
-          <div class="column">
-            <img id="headshot" src="assets/images/DSC06364.jpg" alt="Photo of Michelle">
-          </div>
-        </div>
-        <div class="row center">
-          <div class="column">
-          <h5 class="header col s12 light">Current web development and design student</h5>
-        </div>
-          <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a> -->
-        </div>
-        <br><br>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-  <!-- About ends -->
-
-  <!-- Projects begins -->
-  <div class="container">
-    <div id="projects" class="section">
-      <div class="row">
-        <h3 class="center">Recent projects</h3>
-        <div class="col s12 m4">
-          <div class="icon-block center">            
-            <h5 class="center">Road trip Planning</h5>            
-                <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">              
-            <a href="https://c-swizzle.github.io/Project-One/" target="_blank" id="p1btn" class="btn-large">View Project</a>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block center">
-            <h5 class="center">Train Schedule</h5>
-                <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">              
-                <a href="https://michellety.github.io/Train-Scheduler/" target="_blank" id="p2btn" class="btn-large">View Project</a>            
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block center">            
-            <h5 class="center">Travel Gif Generator</h5>
-                <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">              
-            <a href="https://michellety.github.io/unit6/" target="_blank" id="p3btn" class="btn-large">View Project</a>           
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- Projects ends -->
-
-<!--Parallax begins-->
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-<!--Parallax ends-->
-
-
-<!-- Contact begins -->
-  <div class="container">
-    <div class="section">
-      <div id="contact" class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact</h4>
-          <p class="center light">Please completely fill out the form </p>
-          <div class="row">
-              <form id="form" class="col s12">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input placeholder="First Name" id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input placeholder="Last Name" id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                  </div>
+    <!-- About begins -->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <div class="row center">
+                    <div class="column">
+                        <h1 class="header center">Michelle Tyson</h1>
+                    </div>
                 </div>
-                
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input placeholder="Email" id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input placeholder="Message" id="message" type="text" class="validate">
-                    <label for="message">Message</label>
-                  </div>
-                  <a href="#" id="contactB" class="btn-large">Submit</a>
-                </div>
-                
-          
-              </form>
-            </div>                  
+            </div>
         </div>
-      </div>
+        <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
     </div>
-  </div>
-<!-- Contact ends -->
+    <!-- About ends -->
 
-<!--Parallax section begins-->
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+    <div class="row center">
+        <div id="aboutSection" class="row">
+            <div class="col s12 m6">
+                <img id="headshot" src="assets/images/DSC06364.jpg" alt="Photo of Michelle">
+            </div>
+            <div class="row">
+                <div id="aboutText" class="col s12 m6">
+                    <h4 class="header col s12 light">About Michelle</h4>
+                    <p style="font-size: large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
+                        consequuntur recusandae odit iste velit, quisquam fuga, nobis sequi soluta consectetur earum,
+                        quas reprehenderit quae veniam obcaecati. Debitis, temporibus aperiam.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-<!--Parallax ends-->
 
-<!-- Footer begins -->
-  <footer class="page-footer">
+    <!--Parallax begins-->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
+    </div>
+    <!--Parallax ends-->
+
+    <!-- Projects begins -->
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          </div>
+        <div id="projects" class="section">
+            <div class="row">
+                <h3 class="center">Recent projects</h3>
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <h5 class="center">Road trip Planning</h5>
+                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
+                        <a href="https://c-swizzle.github.io/Project-One/" target="_blank" id="p1btn" class="btn-large">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <h5 class="center">Train Schedule</h5>
+                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
+                        <a href="https://michellety.github.io/Train-Scheduler/" target="_blank" id="p2btn" class="btn-large">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <h5 class="center">Travel Gif Generator</h5>
+                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
+                        <a href="https://michellety.github.io/unit6/" target="_blank" id="p3btn" class="btn-large">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>    
-  </footer>
-<!-- Footer ends -->
+    </div>
+    <!-- Projects ends -->
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="assets/javascript/materialize.js"></script>
-  <script src="assets/javascript/init.js"></script>
+    <!--Parallax begins-->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
+    </div>
+    <!--Parallax ends-->
 
-  </body>
+
+    <!-- Contact begins -->
+    <div class="container">
+        <div class="section">
+            <div id="contact" class="row">
+                <div class="col s12 center">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li>
+                            <h5>Say hi!</h5>
+                        </li>
+                        <li>
+                            <h5>email: michelletyson29@gmail.com</h5>
+                        </li>
+                        <li><br><a href="https://github.com/michellety" target="_blank" class="btn-small">Github</a></li>
+                        <li><br><a href="https://www.linkedin.com/in/michelle-tyson-007420b3/" target="_blank" class="btn-small">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact ends -->
+
+    <!--Parallax section begins-->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
+    </div>
+    <!--Parallax ends-->
+
+    <!-- Footer begins -->
+    <footer class="page-footer">
+        <div class="container center">
+            Michelle Tyson 2019 Copyright &copy;
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="assets/javascript/materialize.js"></script>
+    <script src="assets/javascript/init.js"></script>
+
+</body>
+
 </html>
-
-
-    
-
-
-    
-   
-       
-
-       
-     
-
-       
-        
-
-        
-        
-
-
-        
-
-        
-
-    
-    
-
