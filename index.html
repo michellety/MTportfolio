@@ -11,7 +11,9 @@
     <!-- CSS  -->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- Custom CSS stylesheet-->
-    <link href="assets/style/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/projects.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
 </head>
 
 <body>
@@ -59,10 +61,15 @@
             <div class="row">
                 <div id="aboutText" class="col s12 m6">
                     <h4 class="header col s12 light">About Michelle</h4>
-                    <p style="font-size: large">I am currently a full stack web development student at UC Davis Extension, and transitioning from my previous career as a biologist.  Coming from a science background, I am passionate about the environment and would love to create designs to promote the protection of natural resources.  
-                        </p>
-                    <p style="font-size: large">Creation is a hobby: from art, to furniture restoration, to photography, so building dynamic applications and working with the user experience and user interface is a natural progression!
-                        </p>
+                    <p style="font-size: large">I am currently a full stack web development student at UC Davis
+                        Extension, and transitioning from my previous career as a biologist. Coming from a science
+                        background, I am passionate about the environment and would love to create designs to promote
+                        the protection of natural resources.
+                    </p>
+                    <p style="font-size: large">Creation is a hobby: from art, to furniture restoration, to photography,
+                        so building dynamic applications and working with the user experience and user interface is a
+                        natural progression!
+                    </p>
                 </div>
             </div>
         </div>
@@ -81,117 +88,108 @@
     <!--Parallax ends-->
 
     <!-- Projects begins -->
-    <div class="container">
-        <div id="projects" class="section">
-            <div class="row">
-                <h3 class="center">Recent projects</h3>
+    <div id="projects">
+        <div id="title">
+            <h4>Recent Projects</h4>
+        </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Burger Generator</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://powerful-escarpment-55687.herokuapp.com/" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/burger" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
+        <div class="grid">
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/burger.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Burger Creator</div>
+                    <p class="text">Built with MySQL, Node, Express, and Handlebars.js. </p>
+                    <hr>
+                    <a href="https://powerful-escarpment-55687.herokuapp.com/" target="_blank" id="p1btn"
+                        class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/michellety/burger" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
                 </div>
-
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Existent-Shell Designs</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://sheltered-lake-59366.herokuapp.com/" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/project2" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Friend Finder</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://desolate-escarpment-70624.herokuapp.com" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/FriendFinder" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div>
-
-                <!-- <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Bamazon</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://michellety.github.io/bamazon/" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/bamazon" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Liri</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://michellety.github.io/liri-node-app/" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/liri-node-app" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Road trip Planning</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://c-swizzle.github.io/Project-One/" target="_blank" id="p1btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/C-Swizzle/Project-One" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <h5 class="center">Travel Gif Generator</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://michellety.github.io/unit6/" target="_blank" id="p3btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/unit6" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div> -->
-
-                <!-- <div class="col s12 m">
-                    <div class="icon-block center">
-                        <h5 class="center">Train Schedule</h5>
-                        <img src="assets/images/swirl.jpeg" alt="placeholder image" style="width:250px">
-                        <a href="https://michellety.github.io/Train-Scheduler/" target="_blank" id="p2btn" class="btn-large">View
-                            Project</a>
-                            <br>
-                            <br>
-                        <a href="https://github.com/michellety/Train-Scheduler" target="_blank" id="p2btn" class="btn-large">View
-                            Code</a>
-                    </div>
-                </div>                 -->
             </div>
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/ext.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Existent-Shell Designs</div>
+                    <p class="text">Art store and gallery created using Node, Express, MySQL. Deployed with Heroku.</p>
+                    <hr>
+                    <a href="https://sheltered-lake-59366.herokuapp.com/" target="_blank" id="p1btn" class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/michellety/project2" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
+                </div>
+            </div>
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/friend.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Friend Finder</div>
+                    <p class="text">Compatibility based app using Express to compare friend's survey answers.</p>
+                    <hr>
+                    <a href="https://desolate-escarpment-70624.herokuapp.com" target="_blank" id="p1btn"
+                        class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/michellety/FriendFinder" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
+                </div>
+            </div>
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/bam.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Bamazon</div>
+                    <p class="text">CLI application using MYSQL, node, and JavaScript to create a store front.</p>
+                    <hr>
+                    <a href="https://michellety.github.io/bamazon/" target="_blank" id="p1btn" class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/michellety/bamazon" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
+                </div>
+            </div>
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/roadtrip.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Road Trip Planning</div>
+                    <p class="text">Enter location to check weather, highway conditons, and accommodations.</p>
+                    <hr>
+                    <a href="https://c-swizzle.github.io/Project-One/" target="_blank" id="p1btn" class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/C-Swizzle/Project-One" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
+                </div>
+            </div>
+
+            <div class="gallery-item" id="portfolio">
+                <img class="proj-img" src="assets/images/gif.png" alt="image" style="width:100%">
+                <div class="piece-desc">
+                    <div id="title" class="text">Gif Generator</div>
+                    <p class="text">Populates travel related gifs from the GIPHY API.</p>
+                    <hr>
+                    <a href="https://michellety.github.io/unit6/" target="_blank" id="p1btn" class="btn">View
+                        Project</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/michellety/unit6" target="_blank" id="p2btn" class="btn">View
+                        Code</a>
+                </div>
+            </div>
+
         </div>
     </div>
+
     <!-- Projects ends -->
 
     <!--Parallax begins-->
@@ -223,9 +221,11 @@
                         <li>
                             <h5>Phone: (530) 219- 2153</h5>
                         </li>
-                        <li><br><a href="#" target="_blank" class="btn-small">Resume</a></li>
-                        <li><br><a href="https://github.com/michellety" target="_blank" class="btn-small">Github</a></li>
-                        <li><br><a href="https://www.linkedin.com/in/michelle-tyson-007420b3/" target="_blank" class="btn-small">LinkedIn</a></li>                        
+                        <li><br><a href="#" target="_blank" class="btn">Resume</a></li>
+                        <li><br><a href="https://github.com/michellety" target="_blank" class="btn">Github</a>
+                        </li>
+                        <li><br><a href="https://www.linkedin.com/in/michelle-tyson-007420b3/" target="_blank"
+                                class="btn">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>

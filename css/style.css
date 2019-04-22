@@ -1,155 +1,86 @@
 body {
-  background-color: rgb(145, 226, 226);
-}
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color:#444;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
+    background-color: rgb(145, 226, 226);
+    font-family: 'Laila', serif;
   }
 
-
-#form {
-  border: solid grey 2px;
-  background-color: blanchedalmond;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+  #title {
+      padding: 1.5em;
   }
-  #index-banner .section {
-    top: 10%;
+  nav ul a,
+  nav .brand-logo {
+    color: blanchedalmond;
   }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-  height: 75px;
-}
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#headshot {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-}
-/* 
-.btn {
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-  padding: 1em 2em;
-  margin: .5em 0;
-  border: 1px solid #666;
-}
-
-.btn:hover {
-  background: #eaeaea;
-  color: #333;
-} */
-
-
-
-/*Portfolio (below) style with bootstrap*/
-
-.container {
-  height: 100%;
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px auto auto auto 100px;
-}
-
-.container > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  color: #ffeead;
-}
-
-html, body {
-  box-sizing: border-box;
-  background-color: #ffeead;
-  height: 100%;
-  padding: 5px;
-  margin: 0px;
-}
-
-.header {
-  background-color: grey;
-  grid-column: 1 / -1;
-}
-
-.navItems {
-  list-style: none; 
   
-}
+  p {
+    line-height: 2rem;
+  }
+  
+  .sidenav-trigger {
+    color: blanchedalmond;
+  }
+  
+  .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container .section {
+      width: 100%;
+    }
+  div {
+      color: blanchedalmond;
+  }
+  
 
-.about {
-  background-color: grey;
-  grid-column: 2 / -2;
-}
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+  }
+  
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+  }
+  
+  .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+    height: 75px;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+   
+  #headshot {
+    /* display: grid; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    
+  }
 
-.projects {
-  background-color: grey;
-  grid-column: 2 / -2;
-}
+  #aboutText {
+      /* display: grid; */
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 10rem;
+      
+  }
 
-.contact {
-  background-color: grey;
-  grid-column: 2 / -2;
-}
-
-.footer {
-  background-color: grey;
-  grid-column: 1 / -1; 
-}
-
-
-
-
+  
