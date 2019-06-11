@@ -1,86 +1,84 @@
 body {
-    background-color: rgb(145, 226, 226);
-    font-family: 'Laila', serif;
-  }
+  background-color: rgb(145, 226, 226);
+  font-family: 'Laila', serif;
+}
 
-  #title {
-      padding: 1.5em;
+#title {
+    padding: 1.5em;
+}
+nav ul a,
+nav .brand-logo {
+  color: blanchedalmond;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: blanchedalmond;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
   }
-  nav ul a,
-  nav .brand-logo {
+div {
     color: blanchedalmond;
-  }
-  
-  p {
-    line-height: 2rem;
-  }
-  
-  .sidenav-trigger {
-    color: blanchedalmond;
-  }
-  
-  .parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-  }
-    .parallax-container .section {
-      width: 100%;
-    }
-  div {
-      color: blanchedalmond;
-  }
-  
+}
 
-  @media only screen and (max-width : 992px) {
-    .parallax-container .section {
-      position: absolute;
-      top: 40%;
-    }
-    #index-banner .section {
-      top: 10%;
-    }
-  }
-  
-  @media only screen and (max-width : 600px) {
-    #index-banner .section {
-      top: 0;
-    }
-  }
-  
-  .material-icons {
-    font-size: inherit;
-  }
-  
-  footer.page-footer {
-    margin: 0;
-    height: 75px;
-  }
-  
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-   
-  #headshot {
-    /* display: grid; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: auto;
-    margin-top: 20px;
-    
-  }
 
-  #aboutText {
-      /* display: grid; */
-      margin-left: auto;
-      margin-right: auto;
-      padding-right: 10rem;
-      
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
   }
+  #index-banner .section {
+    top: 10%;
+  }
+}
 
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  height: 75px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
   
+#headshot {
+  padding: 5px;
+  margin: auto;
+  min-width: 400px;
+  height: auto;
+  margin-top: 20px;  
+}
+
+#aboutText {
+  margin: auto;
+  padding: 25px;  
+}
+
+#aboutSection {
+  padding: 30px;
+}
+
