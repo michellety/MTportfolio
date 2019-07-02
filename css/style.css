@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(145, 226, 226);
+  background-color: rgb(11, 100, 122);
   font-family: 'Laila', serif;
 }
 
@@ -30,6 +30,10 @@ p {
   }
 div {
     color: blanchedalmond;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
