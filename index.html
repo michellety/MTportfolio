@@ -5,31 +5,30 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MT Portfolio</title>
-
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Laila:300" rel="stylesheet">
-    <!-- CSS  -->
+    <!-- CSS for materialize-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- Custom CSS stylesheet-->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/projects.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
 </head>
 
 <body>
-
     <!-- Navigation bar begins -->
     <nav role="navigation">
         <div class="nav-wrapper container">
             <ul class="right hide-on-med-and-down">
-                <li><a href="#index-banner">About</a></li>
+                <li><a href="#aboutSection">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#designs">Designs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#index-banner">About</a></li>
+                <li><a href="#aboutSection">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#designs">Designs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
@@ -37,225 +36,249 @@
     </nav>
     <!-- Navigation bar ends -->
 
-    <!-- About begins -->
+    <!-- Parallax begins -->
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
-                <div class="row center">
-                    <div class="column">
-                        <h1 id="title" class="center">Michelle Tyson</h1>
+                <div class="row">
+                    <div class="column center-align">
+                        <h1 id="name">Michelle Tyson</h1>
                     </div>
                 </div>
             </div>
         </div>
         <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
     </div>
-    <!-- About ends -->
+    <!-- Parallax ends -->
 
+    <!-- About begins -->
     <div class="row center">
-        <div id="aboutSection" class="row">
-
+        <div id="aboutSection">
             <div class="row">
-                <div class="col s12">
+                <div class="col s12 m12 l6">
                     <img id="headshot" src="assets/images/DSC06364.jpg" alt="Photo of Michelle">
                 </div>
-                <div id="aboutText" class="col s12">
-                    <h4 class="header col s12 light">About Michelle</h4>
-                    <p style="font-size: large">I am graduate from the full-stack web development certification course at UC Davis
+                <div id="aboutText" class="col s12 m12 l6">
+                    <h4 class="col s12 light">About Michelle</h4>
+                    <p style="font-size: large">I am a graduate from the full-stack web development certification course
+                        at UC Davis
                         Extension, and transitioning from my previous career as a biologist. Coming from a science
                         background, I am passionate about the environment and would love to create designs to promote
                         the protection of natural resources.
                     </p>
-                    <p style="font-size: large">Creation is a hobby: from art and Photoshop, to furniture restoration, to photography,
+                    <p style="font-size: large">Creation is a hobby: from art and Photoshop, to furniture restoration,
+                        to photography,
                         so building dynamic applications and working with the user experience and user interface is a
-                        natural progression! 
+                        natural progression!
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- About ends -->
 
     <!--Parallax begins-->
     <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                </div>
-            </div>
-        </div>
         <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
     </div>
     <!--Parallax ends-->
 
-    <!-- Projects begins -->
+    <!-- Projects begin -->
     <div id="projects">
-        <div id="title">
+        
             <h4 class="center">Recent Projects</h4>
-        </div>
+       
 
-        <div class="grid">
-            <div class="gallery-item" id="portfolio">
+        <div class="row">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/mimicProj.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Mimic Flashcards</div>
+                    <div class="text">Mimic Flashcards</div>
                     <p class="text">MERN stack application for learning custom, foreign phrases.</p>
                     <hr>
-                    <a href="https://blooming-taiga-84648.herokuapp.com/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://blooming-taiga-84648.herokuapp.com/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/capstone" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/capstone" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
-                <img class="proj-img" src="assets/images/ext.png" alt="image" style="width:100%">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
+                <img class="proj-img" src="assets/images/eShell.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Existent-Shell Designs</div>
+                    <div class="text">Existent-Shell Designs</div>
                     <p class="text">Art store and gallery created using Node, Express, MySQL. Deployed with Heroku.</p>
                     <hr>
-                    <a href="https://sheltered-lake-59366.herokuapp.com/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://existent-shell.herokuapp.com/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/project2" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/project2" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/gallery.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Photography Gallery</div>
+                    <div class="text">Photography Gallery</div>
                     <p class="text">Photo showcase with a CSS grid layout and parallax scrolling.</p>
                     <hr>
-                    <a href="https://michellety.github.io/MTphotography/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://michellety.github.io/MTphotography/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/MTphotography" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/MTphotography" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/safari.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Memory Game</div>
+                    <div class="text">Memory Game</div>
                     <p class="text">A React app memory game that randomizes images upon clicking.</p>
                     <hr>
-                    <a href="https://michellety.github.io/clicky/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://michellety.github.io/clicky/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/clicky" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/clicky" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
+        </div>
+
+        <div class="row">
+
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/burger.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Burger Creator</div>
+                    <div class="text">Burger Creator</div>
                     <p class="text">Built with MySQL, Node, Express, and Handlebars.js. </p>
                     <hr>
-                    <a href="https://powerful-escarpment-55687.herokuapp.com/" target="_blank" id="p1btn"
-                        class="btn">View
+                    <a href="https://powerful-escarpment-55687.herokuapp.com/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/burger" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/burger" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
-                <img class="proj-img" src="assets/images/friend.png" alt="image" style="width:100%">
-                <div class="piece-desc">
-                    <div id="title" class="text">Friend Finder</div>
-                    <p class="text">Compatibility based app using Express to compare friend's survey answers.</p>
-                    <hr>
-                    <a href="https://desolate-escarpment-70624.herokuapp.com" target="_blank" id="p1btn"
-                        class="btn">View
-                        Project</a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/michellety/FriendFinder" target="_blank" id="p2btn" class="btn">View
-                        Code</a>
-                </div>
-            </div>
-
-            <div class="gallery-item" id="portfolio">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/bam.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Bamazon</div>
+                    <div class="text center">Bamazon</div>
                     <p class="text">CLI application using MYSQL, node, and JavaScript to create a store front.</p>
                     <hr>
-                    <a href="https://michellety.github.io/bamazon/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://michellety.github.io/bamazon/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/bamazon" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/bamazon" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/roadtrip.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Road Trip Planning</div>
+                    <div class="text">Road Trip Planning</div>
                     <p class="text">Enter location to check weather, highway conditons, and accommodations.</p>
                     <hr>
-                    <a href="https://c-swizzle.github.io/Project-One/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://c-swizzle.github.io/Project-One/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/C-Swizzle/Project-One" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/C-Swizzle/Project-One" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
-            <div class="gallery-item" id="portfolio">
+            <div class="gallery-item col sm12 m6 l3 center hoverable">
                 <img class="proj-img" src="assets/images/gif.png" alt="image" style="width:100%">
                 <div class="piece-desc">
-                    <div id="title" class="text">Gif Generator</div>
+                    <div class="text">Gif Generator</div>
                     <p class="text">Populates travel related gifs from the GIPHY API.</p>
                     <hr>
-                    <a href="https://michellety.github.io/unit6/" target="_blank" id="p1btn" class="btn">View
+                    <a href="https://michellety.github.io/unit6/" target="_blank" class="btn">View
                         Project</a>
                     <br>
                     <br>
-                    <a href="https://github.com/michellety/unit6" target="_blank" id="p2btn" class="btn">View
+                    <a href="https://github.com/michellety/unit6" target="_blank" class="btn">View
                         Code</a>
                 </div>
             </div>
 
         </div>
     </div>
-
-    <!-- Projects ends -->
+    <!-- Projects end -->
 
     <!--Parallax begins-->
     <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                </div>
-            </div>
-        </div>
         <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
     </div>
     <!--Parallax ends-->
 
+    <!-- Designs begin -->
+    <div id="designs">   
+           <h4 class="center">Designs</h4>
+       <div class="row">
+                <div class="gallery-item col sm12 m6 l6 center hoverable">
+                    <img class="proj-img" src="assets/images/PeteLogo.png" alt="image" style="width:100%">
+                    <div class="piece-desc">
+                            <div class="text">Pour Pete's Brewing</div>
+                            <p class="text">Branding and logo design created using Procreate.</p>                       
+                    </div>
+                </div>
+    
+                <div class="gallery-item col sm12 m6 l6 center hoverable">
+                    <img class="proj-img" src="assets/images/proto.png" alt="image" style="width:100%">
+                    <div class="piece-desc">
+                            <div class="text">Wireframe</div>
+                            <p class="text">Adobe XD prototype design for Mimic Flashcards.</p>                        
+                    </div>
+                </div>
+    
+                <!-- <div class="gallery-item col sm12 m6 l3 center hoverable">
+                    <img class="proj-img" src="assets/images/PourPetes.jpg" alt="image" style="width:100%">
+                    <div class="piece-desc">
+                            <div class="text">Design Name</div>
+                            <p class="text">Details</p>
+                       
+                    </div>
+                </div>
+    
+                <div class="gallery-item col sm12 m6 l3 center hoverable">
+                    <img class="proj-img" src="assets/images/PourPetes.jpg" alt="image" style="width:100%">
+                    <div class="piece-desc">
+                        <div class="text">Design Name</div>
+                        <p class="text">Details</p>
+                    </div>
+                </div> -->
+    
+            </div>         
+        </div>
+
+    <!-- Designs end -->
+
+    <!--Parallax begins-->
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
+    </div>
+    <!--Parallax ends-->
 
     <!-- Contact begins -->
     <div class="container">
         <div class="section">
             <div id="contact" class="row">
                 <div class="col s12 center">
-                    <h3>Contact Information</h3>
+                    <h4>Contact Information</h4>
                     <ul>
                         <li>
                             <h5>Say hi! Currently based in Sacramento, CA.</h5>
@@ -266,7 +289,8 @@
                         <li>
                             <h5>Phone: (530) 219- 2153</h5>
                         </li>
-                        <li><br><a href="assets/images/MichelleTysonResume.pdf" target="_blank" class="btn">Resumé</a></li>
+                        <li><br><a href="assets/images/MichelleTyson.pdf" target="_blank" class="btn">Resumé</a>
+                        </li>
                         <li><br><a href="https://github.com/michellety" target="_blank" class="btn">Github</a></li>
                         <li><br><a href="https://www.linkedin.com/in/michelle-tyson-007420b3/" target="_blank"
                                 class="btn">LinkedIn</a></li>
@@ -279,12 +303,12 @@
 
     <!--Parallax section begins-->
     <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
+        <!-- <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="parallax"><img src="assets/images/DSC06533.jpg" alt="Big Sur Sunset"></div>
     </div>
     <!--Parallax ends-->

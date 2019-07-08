@@ -3,16 +3,13 @@ body {
   font-family: 'Laila', serif;
 }
 
-#title {
-    padding: 1.5em;
-}
 nav ul a,
 nav .brand-logo {
   color: blanchedalmond;
 }
 
 p {
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 .sidenav-trigger {
@@ -20,41 +17,19 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
+  min-height: 400px;
   height: auto;
-  color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+
 div {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 nav {
   background-color: rgba(0, 0, 0, 0);
-}
-
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.material-icons {
-  font-size: inherit;
 }
 
 footer.page-footer {
@@ -70,22 +45,34 @@ img {
 }
   
 #headshot {
-  padding: 5px;
-  margin: auto;
+  padding: 5px; 
   min-width: 400px;
-  height: auto;
-  margin-top: 20px;  
-}
-
-#aboutText {
-  margin: auto;
-  padding: 25px;  
+  border-radius: 25px;  
 }
 
 #aboutSection {
   padding: 30px;
 }
 
-.row {
-  margin: 1em;
+#name {
+  margin: 100px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .gallery-item {
+    margin: 10px;
+  }
 }
