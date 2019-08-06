@@ -1,7 +1,11 @@
 .gallery-item {
     padding: 5px;
     border-radius: 25px;
+    transition: all .2s ease-in-out; 
+
 }
+
+.gallery-item:hover { transform: scale(1.01); }
 .proj-img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;

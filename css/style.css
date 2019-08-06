@@ -79,4 +79,8 @@ img {
   .gallery-item {
     margin: 10px;
   }
+  #aboutText {
+   padding: 5px;
+   margin: auto;
+  }
 }
